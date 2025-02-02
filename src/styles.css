@@ -1,0 +1,97 @@
+.card {
+  transition: transform 0.2s;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  max-width: 100px;
+}
+
+/*  */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  position: relative; /* Positioning context for the overlay */
+  overflow: hidden;   /* Hide anything outside the card bounds */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100px;
+  transition: transform 0.2s ease;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body .card-text {
+  margin-bottom: 15px;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);  /* Dark semi-transparent background */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;  /* Hidden by default */
+  pointer-events: none;  /* Avoid overlay interfering with mouse events */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for the overlay */
+}
+
+.hover-overlay.active {
+  opacity: 1;  /* Show overlay when hovered */
+  pointer-events: auto;  /* Allow interaction with the overlay */
+}
+
+.details p {
+  font-size: 14px;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.details strong {
+  color: #007bff;
+}
+
+/* Button style for Load More */
+.btn {
+  margin-top: 20px;
+}
+
+/* Center the loading message */
+.text-center {
+  text-align: center;
+}
