@@ -8,9 +8,12 @@ A simple Pokédex application built with React to search and display Pokémon de
 - Responsive UI  
 
 ## 🚀 Technologies Used  
-- React.js  
-- Bootstrap  
-- PokéAPI  
+- **React.js** – For building UI components  
+- **React Hooks** – State management  
+- **Bootstrap** – For styling and layout  
+- **PokéAPI** – To fetch Pokémon data  
+- **Axios / Fetch API** – For API requests  
+- **Node.js & npm** – Development environment  
 
 ## 📸 Screenshots  
 ![Pokédex Screenshot](https://github.com/aneesh-acharyeah/pokedex-app/blob/master/pokedex-1.png)  
