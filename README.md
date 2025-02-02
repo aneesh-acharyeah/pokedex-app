@@ -13,7 +13,7 @@ A simple Pokédex application built with React to search and display Pokémon de
 - PokéAPI  
 
 ## 📸 Screenshots  
-![Pokédex Screenshot](screenshots/homepage.png)  
+![Pokédex Screenshot](pokedex1.png)  
 
 ## 🛠 Installation  
 1. Clone the repository:  
