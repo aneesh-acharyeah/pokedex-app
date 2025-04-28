@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aneesh-acharyeah/pokedex-app/static/css/main.140a13b7.css",
+    "main.js": "/aneesh-acharyeah/pokedex-app/static/js/main.6a4e2296.js",
+    "static/js/453.baf231db.chunk.js": "/aneesh-acharyeah/pokedex-app/static/js/453.baf231db.chunk.js",
+    "index.html": "/aneesh-acharyeah/pokedex-app/index.html",
+    "main.140a13b7.css.map": "/aneesh-acharyeah/pokedex-app/static/css/main.140a13b7.css.map",
+    "main.6a4e2296.js.map": "/aneesh-acharyeah/pokedex-app/static/js/main.6a4e2296.js.map",
+    "453.baf231db.chunk.js.map": "/aneesh-acharyeah/pokedex-app/static/js/453.baf231db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.140a13b7.css",
+    "static/js/main.6a4e2296.js"
+  ]
+}
