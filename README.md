@@ -25,3 +25,4 @@ A simple Pokédex application built with React to search and display Pokémon de
    ```bash
    git clone https://github.com/aneesh-acharyeah/pokedex-app.git
    cd pokedex-app
+
